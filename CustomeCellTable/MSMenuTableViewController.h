@@ -23,4 +23,6 @@ typedef NS_ENUM(NSUInteger, MSPaneViewControllerType)
 };
 @interface MSMenuTableViewController : UITableViewController
 @property (nonatomic, assign) MSPaneViewControllerType paneViewControllerType;
+@property(strong,nonatomic)UITableView *tableView;
+@property(strong,nonatomic)UITableViewCell *tableViewCell;
 @end
